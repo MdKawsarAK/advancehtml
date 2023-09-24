@@ -1,0 +1,128 @@
+@font-face{
+	font-family:Montserrat-Regular ;
+	src:url(../fonts/Montserrat/Montserrat-Regular.ttf) ;
+}
+@font-face{
+	font-family:Montserrat-Medium ;
+	src:url(../fonts/Montserrat/Montserrat-Medium.ttf) ;
+}
+@font-face{
+	font-family:Montserrat-Bold ;
+	src:url(../fonts/Montserrat/Montserrat-Bold.ttf) ;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	font-family:Montserrat-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #222;
+}
+img{
+	max-width:100%;
+}
+header{
+	max-width: 100%;
+	background-color: #ede8e25c;
+}
+.container {
+    margin: auto;
+    width: 70%;
+    
+}
+.h-cus{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+	max-width:20% ;
+    flex-basis: 20%;
+}
+.logo a img{
+	width: 100%;
+}
+.logo{}
+nav {
+	max-width:80%;
+    flex-basis: 80%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: ;
+
+}
+nav ul li{
+}
+nav ul li a {
+    padding: 10px 20px;
+    font-family: Montserrat-Medium;
+    font-weight: 500;
+    color: #004d48 !important;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+    transition-duration:0.5s;
+}
+nav ul li a:hover{
+	background-color: #004c47;
+	color: white !important;
+}
+/*herobanner start*/
+.herobanner {
+    background: magenta url(../images/ai.png);
+    background-position-y: center;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.hero-content{
+
+}
+.hero-cus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.hero-content{}
+.hero-content h1{
+	font-size: 35px;
+	font-weight: 900;
+	color: white;
+}
+.hero-content p{
+    color: white;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+/*herobanner end*/
+/*gallery start*/
+.gallery{
+	    margin-top: 20px;
+}
+.g-cus{
+	display: flex;
+	flex-wrap: wrap;
+}
+.g-img{
+	    padding-top: 5px;
+	    padding-right:5px;
+	flex-basis: 32%;
+}
+.g-img img{
+	width: 100%;
+	aspect-ratio:1/1 ;
+	object-fit: cover;
+    border-radius: 12px;
+}
+/*gallery end*/
